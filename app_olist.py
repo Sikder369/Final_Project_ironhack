@@ -114,7 +114,7 @@ st.markdown(
 
 @st.cache_data
 def load_data():
-    conn = sqlite3.connect("e_commerce_olist.db")
+    conn = sqlite3.connect("dashboard_data.db")
 
     query = """
     SELECT *
